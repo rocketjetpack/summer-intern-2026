@@ -1,0 +1,142 @@
+// See https://observablehq.com/framework/config for documentation.
+export default {
+  // The app’s title; used in the sidebar and webpage titles.
+  title: "2026 Summer Network Engineering Internship",
+
+  // The pages and sections in the sidebar. If you don’t specify this option,
+  // all pages will be listed in alphabetical order. Listing pages explicitly
+  // lets you organize them into sections and have unlisted pages.
+  pages: [
+    {
+      name: "Home", path: "/index"
+    },
+    {
+      name: "Setup",
+      open: false,
+      pages: [
+        { name: "Repo Clone", path: "/week_00/repo" },
+        { name: "Workstation", path: "/week_00/workstation" },
+        { name: "Lab Servers", path: "/week_00/lab-servers" },
+        { name: "Software", path: "/week_00/software" },
+      ],
+    },
+    {
+      name: "Week 1: General Info",
+      open: false,
+      pages: [
+        { name: "Objectives", path: "/week_01/objectives"},
+        { name: "Personal Notes", path: "/week_01/notes" }
+      ],
+    },
+    {
+      name: "Week 2: How a network moves a packet",
+      open: false,
+      pages: [
+        { name: "Objectives", path: "/week_02/objectives" },
+        { name: "Resources", path: "/week_02/resources" },
+        { name: "Labs", path: "/week_02/code"},
+        { name: "Personal Notes", path: "/week_02/notes" }
+      ],
+    },
+    {
+      name: "Week 3: Addressing, switching, routing",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_03/objectives" },
+//        { name: "Resources", path: "/week_03/resources" },
+//        { name: "Code Labs", path: "/week_03/code"},
+//        { name: "Personal Notes", path: "/week_03/notes" }
+      ],
+    },
+    {
+      name: "Week 4: TCP, UDP, and congestion",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_04/objectives" },
+//        { name: "Resources", path: "/week_04/resources" },
+//        { name: "Code Labs", path: "/week_04/code"},
+//        { name: "Personal Notes", path: "/week_04/notes" }
+      ],
+    },
+    {
+      name: "Week 5: Telemetry & device counters (SNMP)",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_05/objectives" },
+//        { name: "Resources", path: "/week_05/resources" },
+//        { name: "Code Labs", path: "/week_05/code"},
+//        { name: "Personal Notes", path: "/week_05/notes" }
+      ],
+    },
+    {
+      name: "Week 6: High-speed Ethernet & optics",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_06/objectives" },
+//        { name: "Resources", path: "/week_06/resources" },
+//        { name: "Code Labs", path: "/week_06/code"},
+//        { name: "Personal Notes", path: "/week_06/notes" }
+      ],
+    },
+    {
+      name: "Week 7: OTN — transport between sites",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_07/objectives" },
+//        { name: "Resources", path: "/week_07/resources" },
+//        { name: "Code Labs", path: "/week_07/code"},
+//        { name: "Personal Notes", path: "/week_07/notes" }
+      ],
+    },
+    {
+      name: "Week 8: InfiniBand & RDMA",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_08/objectives" },
+//        { name: "Resources", path: "/week_08/resources" },
+//        { name: "Code Labs", path: "/week_08/code"},
+//        { name: "Personal Notes", path: "/week_08/notes" }
+      ],
+    },
+    {
+      name: "Week 9: Storing & dashboarding telemetry",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_09/objectives" },
+//        { name: "Resources", path: "/week_09/resources" },
+//        { name: "Code Labs", path: "/week_09/code"},
+//        { name: "Personal Notes", path: "/week_09/notes" }
+      ],
+    },
+    {
+      name: "Week 10: Topology view & presentation",
+      open: false,
+      pages: [
+//        { name: "Objectives", path: "/week_10/objectives" },
+//        { name: "Resources", path: "/week_10/resources" },
+//        { name: "Code Labs", path: "/week_10/code"},
+//        { name: "Personal Notes", path: "/week_10/notes" }
+      ],
+    },
+  ],
+
+  // Content to add to the head of the page, e.g. for a favicon:
+  head: '<link rel="icon" href="observable.png" type="image/png" sizes="32x32">',
+
+  // The path to the source root.
+  root: "src",
+
+  // Some additional configuration options and their defaults:
+  // theme: "default", // try "light", "dark", "slate", etc.
+  // header: "", // what to show in the header (HTML)
+  // footer: "Built with Observable.", // what to show in the footer (HTML)
+  // sidebar: true, // whether to show the sidebar
+  // toc: true, // whether to show the table of contents
+  // pager: true, // whether to show previous & next links in the footer
+  // output: "dist", // path to the output root for build
+  // search: true, // activate search
+  // linkify: true, // convert URLs in Markdown to links
+  // typographer: false, // smart quotes and other typographic improvements
+  // preserveExtension: false, // drop .html from URLs
+  // preserveIndex: false, // drop /index from URLs
+};
