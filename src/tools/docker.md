@@ -6,6 +6,8 @@ title: Docker Lab
 
 Containerlab (Week 3) runs every node in your topology as a Docker container, and the Podman lab reuses almost the same commands. This lab builds the mental model you'll need for both — and ends with you building the custom host image that Labs 1-3 use for every Linux node in their topologies.
 
+**This lab should be done on the lab host configured for you to have privileged access to.**
+
 ## What is a container, and why do they exist?
 
 A **container** is an isolated process: its own filesystem, network namespace, and process tree, but running directly on the host's kernel — no hypervisor, no separate guest OS. That's the key difference from a VM, which virtualizes an entire machine (its own kernel, boot process, etc.) and is correspondingly heavier and slower to start.

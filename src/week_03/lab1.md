@@ -4,9 +4,11 @@ title: "Lab 1: L2 Fundamentals"
 
 # Lab 1: L2 Fundamentals
 
-*Assumes the lab server (root). Build `nettools:week03` in the [Docker Lab](../tools/docker) first — both hosts below use it.*
+**Before proceeding, follow the [Docker Lab](../tools/docker) first as both hosts below use it.**
 
 This is your first Containerlab topology. It's deliberately small — one switch, two hosts, one subnet — so you can focus on *how Containerlab works* as much as on the L2 concepts themselves. Each step below is fully worked: expand the "Show me" boxes for the exact file/commands, but read the explanation and follow the links first if a step is new to you.
+
+**This lab should be done on the lab host configured for you to have privileged access to.**
 
 ## Topology
 
