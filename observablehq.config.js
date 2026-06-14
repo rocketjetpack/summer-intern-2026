@@ -21,6 +21,14 @@ export default {
       ],
     },
     {
+      name: "Tools",
+      open: false,
+      pages: [
+        { name: "Docker Lab", path: "/tools/docker" },
+//        { name: "Podman Lab", path: "/tools/podman" },
+      ],
+    },
+    {
       name: "Week 1: General Info",
       open: false,
       pages: [
@@ -42,10 +50,15 @@ export default {
       name: "Week 3: Addressing, switching, routing",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_03/objectives" },
-//        { name: "Resources", path: "/week_03/resources" },
-//        { name: "Code Labs", path: "/week_03/code"},
-//        { name: "Personal Notes", path: "/week_03/notes" }
+        { name: "Objectives", path: "/week_03/objectives" },
+        { name: "Resources", path: "/week_03/resources" },
+        { name: "Labs", path: "/week_03/code" },
+        { name: "Lab 1: L2 Fundamentals", path: "/week_03/lab1" },
+        { name: "Lab 2: The L2/L3 Pivot", path: "/week_03/lab2" },
+        { name: "Lab 3: Extended Topology", path: "/week_03/lab3" },
+        { name: "Code Lab: Subnet Helper", path: "/week_03/subnet-helper" },
+        { name: "Code Lab: Path Explorer", path: "/week_03/path-explorer" },
+        { name: "Personal Notes", path: "/week_03/notes" }
       ],
     },
     {
