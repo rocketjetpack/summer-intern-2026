@@ -25,6 +25,7 @@ export default {
       open: false,
       pages: [
         { name: "Docker Lab", path: "/tools/docker" },
+        { name: "Socket Programming", path: "/tools/sockets" },
 //        { name: "Podman Lab", path: "/tools/podman" },
       ],
     },
@@ -65,20 +66,24 @@ export default {
       name: "Week 4: TCP, UDP, and congestion",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_04/objectives" },
-//        { name: "Resources", path: "/week_04/resources" },
-//        { name: "Code Labs", path: "/week_04/code"},
-//        { name: "Personal Notes", path: "/week_04/notes" }
+        { name: "Objectives", path: "/week_04/objectives" },
+        { name: "Terminology", path: "/week_04/terminology" },
+        { name: "Resources", path: "/week_04/resources" },
+        { name: "Labs", path: "/week_04/code"},
+        { name: "Lab 0: Build nettools:week04", path: "/week_04/lab0" },
+        { name: "Lab 1: Loss × Latency Amplification", path: "/week_04/lab1" },
+        { name: "Lab 2: Querying Network Data with the LibreNMS API", path: "/week_04/lab2" },
+        { name: "Personal Notes", path: "/week_04/notes" }
       ],
     },
     {
-      name: "Week 5: Telemetry & device counters (SNMP)",
+      name: "Week 5: Flow Telemetry — sFlow & NetFlow",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_05/objectives" },
-//        { name: "Resources", path: "/week_05/resources" },
-//        { name: "Code Labs", path: "/week_05/code"},
-//        { name: "Personal Notes", path: "/week_05/notes" }
+//        { name: "Objectives", path: "/week_08/objectives" },
+//        { name: "Resources", path: "/week_08/resources" },
+//        { name: "Code Labs", path: "/week_08/code"},
+//        { name: "Personal Notes", path: "/week_08/notes" }
       ],
     },
     {
@@ -112,23 +117,23 @@ export default {
       ],
     },
     {
-      name: "Week 9: Storing & dashboarding telemetry",
+      name: "Week 9: VXLAN & Overlay Networking",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_09/objectives" },
-//        { name: "Resources", path: "/week_09/resources" },
-//        { name: "Code Labs", path: "/week_09/code"},
-//        { name: "Personal Notes", path: "/week_09/notes" }
+//        { name: "Objectives", path: "/week_08/objectives" },
+//        { name: "Resources", path: "/week_08/resources" },
+//        { name: "Code Labs", path: "/week_08/code"},
+//        { name: "Personal Notes", path: "/week_08/notes" }
       ],
     },
     {
-      name: "Week 10: Topology view & presentation",
+      name: "Week 10: Network Security Fundamentals",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_10/objectives" },
-//        { name: "Resources", path: "/week_10/resources" },
-//        { name: "Code Labs", path: "/week_10/code"},
-//        { name: "Personal Notes", path: "/week_10/notes" }
+//        { name: "Objectives", path: "/week_08/objectives" },
+//        { name: "Resources", path: "/week_08/resources" },
+//        { name: "Code Labs", path: "/week_08/code"},
+//        { name: "Personal Notes", path: "/week_08/notes" }
       ],
     },
   ],
