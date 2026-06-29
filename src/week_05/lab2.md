@@ -4,8 +4,6 @@ title: "Lab 2: NetFlow/IPFIX — Exact Flow Accounting"
 
 # Lab 2: NetFlow/IPFIX — Exact Flow Accounting
 
-# NOTE: THIS LAB IS STILL BEING VALIDATED
-
 **Before proceeding, complete [Lab 0](./lab0). This lab reuses Lab 1's topology** — same four nodes, same addressing — but `rtr1` runs `softflowd` instead of `hsflowd`, building an exact flow cache instead of sampling, and `collector` runs `nfcapd`/`nfdump` instead of `goflow2`.
 
 **This lab should be done on the lab host configured for you to have privileged access to.**
