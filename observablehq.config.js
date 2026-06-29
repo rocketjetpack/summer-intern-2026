@@ -80,10 +80,15 @@ export default {
       name: "Week 5: Flow Telemetry — sFlow & NetFlow",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_08/objectives" },
-//        { name: "Resources", path: "/week_08/resources" },
-//        { name: "Code Labs", path: "/week_08/code"},
-//        { name: "Personal Notes", path: "/week_08/notes" }
+        { name: "Objectives", path: "/week_05/objectives" },
+        { name: "Terminology", path: "/week_05/terminology" },
+        { name: "Resources", path: "/week_05/resources" },
+        { name: "Labs", path: "/week_05/code" },
+        { name: "Lab 0: Build nettools:week05", path: "/week_05/lab0" },
+        { name: "Lab 1: sFlow — Sampling and Estimation", path: "/week_05/lab1" },
+        { name: "Lab 2: NetFlow/IPFIX — Exact Flow Accounting", path: "/week_05/lab2" },
+        { name: "Code Lab: Sampling Estimator", path: "/week_05/sampling-estimator" },
+        { name: "Personal Notes", path: "/week_05/notes" }
       ],
     },
     {
