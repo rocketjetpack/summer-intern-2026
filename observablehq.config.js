@@ -95,10 +95,12 @@ export default {
       name: "Week 6: High-speed Ethernet & optics",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_06/objectives" },
-//        { name: "Resources", path: "/week_06/resources" },
-//        { name: "Code Labs", path: "/week_06/code"},
-//        { name: "Personal Notes", path: "/week_06/notes" }
+        { name: "Objectives", path: "/week_06/objectives" },
+        { name: "Terminology", path: "/week_06/terminology" },
+        { name: "Resources", path: "/week_06/resources" },
+        { name: "Labs", path: "/week_06/code" },
+        { name: "Code Lab: Link Power Budget", path: "/week_06/link-budget" },
+        { name: "Personal Notes", path: "/week_06/notes" }
       ],
     },
     {
