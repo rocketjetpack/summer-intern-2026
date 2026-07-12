@@ -8,4 +8,4 @@ No ContainerLab topology this week: optics and high-speed signaling aren't reall
 
 ## 1. [Code Lab: Link Power Budget](./link-budget)
 
-An interactive optical link budget calculator: pick a fiber type and distance, add connectors and splices, and see whether the link closes and by how much margin. Runs the same calculation as [The FOA's loss budget method](./resources), and sets up the link-design math Week 7's long-haul DWDM discussion builds on.
+An interactive optical link budget calculator: pick a fiber type and distance, add connectors and splices, and see whether the link closes and by how much margin. Runs the same calculation as [The FOA's loss budget method](./resources), and sets up the link-design math OTN's long-haul DWDM discussion (a stretch topic later in the program) builds on.

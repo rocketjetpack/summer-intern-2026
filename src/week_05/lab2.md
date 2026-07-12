@@ -104,7 +104,7 @@ docker exec -it clab-week05-lab2-collector nfdump -R /data/netflow -o long
 | Visibility while the flow is running | Continuous (samples stream in real time) | Only at active-timeout intervals (here, every 20s) |
 | `rtr1` state required | None — stateless sampling | One flow-cache entry per active flow, held until export |
 
-**Question:** If `rtr1` suddenly carried 50,000 short-lived flows instead of one long one, which lab's approach would put more load on `rtr1` itself? Which would put more load on `collector`? (Revisit Estan & Varghese in [resources.md](./resources) if you want the deeper argument — this is also the structural reason flow-table exhaustion is a viable denial-of-service technique, a preview of Week 10.)
+**Question:** If `rtr1` suddenly carried 50,000 short-lived flows instead of one long one, which lab's approach would put more load on `rtr1` itself? Which would put more load on `collector`? (Revisit Estan & Varghese in [resources.md](./resources) if you want the deeper argument — this is also the structural reason flow-table exhaustion is a viable denial-of-service technique, a preview of Network Security Fundamentals, a stretch topic later in the program.)
 
 ## Step 8: Clean up
 

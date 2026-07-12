@@ -63,7 +63,7 @@ Readings are grouped by topic. Read the Required entries before starting Lab 1 o
   The foundation for non-blocking fabric design.
 
 - **[Priority Flow Control — IEEE 802.1Qbb](https://en.wikipedia.org/wiki/IEEE_802.1Qbb)**  
-  PFC is the Ethernet mechanism that makes a fabric lossless for RoCE. A PFC PAUSE frame tells an upstream sender to stop transmitting on a specific traffic class before the buffer overflows. *This is a connection to later topics of InfiniBand and RDMA, and not really pertinent this week. You will also see "flow control" referenced in many switch configurations this summer.*
+  PFC is the Ethernet mechanism that makes a fabric lossless for RoCE. A PFC PAUSE frame tells an upstream sender to stop transmitting on a specific traffic class before the buffer overflows. *This is a connection to InfiniBand and RDMA, a stretch topic later in the program, and not really pertinent this week. You will also see "flow control" referenced in many switch configurations this summer.*
 
 ---
 

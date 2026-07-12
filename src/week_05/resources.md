@@ -38,7 +38,7 @@ Readings are grouped by topic. Read the Required entries before starting the cor
 ### Recommended
 
 - **Cristian Estan & George Varghese (2002) — [New Directions in Traffic Measurement and Accounting](https://www.cse.ucsd.edu/~varghese/PAPERS/sigcomm2002.pdf)**
-  Motivates *why* exact flow-cache accounting is expensive: the cache has to track every distinct flow currently active, and a network with many small flows (or one under attack) can grow that cache far faster than a network carrying the same byte volume across fewer, larger flows. Connects directly to flow-table exhaustion as a denial-of-service technique — a preview of Week 10.
+  Motivates *why* exact flow-cache accounting is expensive: the cache has to track every distinct flow currently active, and a network with many small flows (or one under attack) can grow that cache far faster than a network carrying the same byte volume across fewer, larger flows. Connects directly to flow-table exhaustion as a denial-of-service technique — a preview of Network Security Fundamentals, a stretch topic later in the program.
 
 ---
 

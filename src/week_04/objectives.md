@@ -102,11 +102,11 @@ This is what network architecture actually is: understanding the needs of an org
 
 ---
 
-## The Week 8 Bridge
+## The InfiniBand/RDMA Bridge (Stretch Topic)
 
-Every concept this week has a direct counterpart in Week 8 (InfiniBand, RDMA, RoCE). Understanding the problem here makes the engineering choices there legible:
+Every concept this week has a direct counterpart in InfiniBand, RDMA, and RoCE (a stretch topic later in the program, not on the current week-by-week schedule). Understanding the problem here makes the engineering choices there legible:
 
-| Week 4 concept | Why it matters | Week 8 counterpart |
+| Week 4 concept | Why it matters | InfiniBand/RDMA counterpart |
 |---|---|---|
 | **Mathis formula:** any loss causes multiplicative throughput collapse | RDMA has no retransmit capability; any loss stalls or fails the operation | RoCE requires **zero loss**; DCQCN signals congestion before any drop via ECN |
 | **BDP:** latency amplifies the cost of loss | Datacenter RTTs must stay below 1ms or per-flow throughput collapses at scale | IB and RoCE fabrics target 1-10µs RTT; lossless paths eliminate the RTT penalty term |

@@ -6,7 +6,7 @@ title: Labs
 
 Lab 1 uses the `nettools:week04` image — start with Lab 0 to build it before deploying any topology. Lab 2 does not use ContainerLab at all; it queries a live external API instead.
 
-Two labs build a single argument: a single flow under controlled impairment, measured on infrastructure you built yourself (Lab 1), then real congestion signals on infrastructure you don't control (Lab 2). Each lab ends with a callout connecting the observation to Week 8.
+Two labs build a single argument: a single flow under controlled impairment, measured on infrastructure you built yourself (Lab 1), then real congestion signals on infrastructure you don't control (Lab 2). Each lab ends with a callout connecting the observation to InfiniBand/RDMA, a stretch topic later in the program.
 
 Lab 1 requires `sudo` — `tc` (Linux traffic control), ContainerLab, and certain network observation tools need root. Lab 2 requires no root access, just Python 3, `requests`, and an API key.
 

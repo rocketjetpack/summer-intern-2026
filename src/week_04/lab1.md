@@ -347,7 +347,7 @@ containerlab destroy -t lab1.clab.yml --cleanup
 
 ---
 
-## Week 8 Connection
+## InfiniBand/RDMA Connection (Stretch Topic)
 
 > RDMA (Remote Direct Memory Access) has no retransmit path at the transport layer. Any packet loss means an RDMA operation either stalls indefinitely or is failed back to the application to handle. This is why the requirement for any RDMA network (InfiniBand or Ethernet) is not "low loss", it is *zero loss*.
 >

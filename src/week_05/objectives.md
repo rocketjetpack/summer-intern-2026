@@ -62,4 +62,4 @@ Week 4 made the point that TCP-internal state (`ss -tip`) and SNMP interface cou
 
 sFlow and SNMP also share a structural weakness, just along different axes. SNMP polling averages **over time** (e.g: a five-minute mean can hide a sub-second burst entirely). sFlow samples have a similar weakness: at 1-in-1000, a real but small flow may simply never get picked by the sampler. Both are forms of the same underlying trade off: you cannot observe everything, so you trade completeness for cost, and which option you choose to trade away determines what kind of event you can miss.
 
-*Forward reference: flow telemetry (especially NetFlow/IPFIX's exact, per-flow counts) is a standard input to the anomaly and DDoS detection techniques planned for Week 10 (Network Security Fundamentals).*
+*Forward reference: flow telemetry (especially NetFlow/IPFIX's exact, per-flow counts) is a standard input to the anomaly and DDoS detection techniques covered in Network Security Fundamentals, a stretch topic later in the program.*

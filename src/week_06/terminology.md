@@ -13,7 +13,7 @@ title: Terminology
 | **BER** | Bit Error Rate: the fraction of received bits that are in error before any correction is applied |
 | **CWDM** | Coarse Wavelength Division Multiplexing: combines a handful of widely-spaced wavelengths onto a single fiber pair; used by CWDM4 optics for 100G over 2km |
 | **CWDM4** | A 100G optical spec that uses 4 lanes of 25G, each on its own CWDM wavelength, multiplexed over a single duplex single-mode fiber pair |
-| **DWDM** | Dense Wavelength Division Multiplexing: combines many closely-spaced wavelengths on one fiber; the long-haul, high-density counterpart to CWDM, central to Week 7's OTN transport |
+| **DWDM** | Dense Wavelength Division Multiplexing: combines many closely-spaced wavelengths on one fiber; the long-haul, high-density counterpart to CWDM, central to OTN transport (a stretch topic later in the program) |
 | **Eye Diagram** | An oscilloscope view built by overlaying many signal periods; the "eye" opening's height and width indicate noise margin and timing margin. PAM4 has three smaller eyes stacked where NRZ has one large eye |
 | **FEC** | Forward Error Correction: encoding redundant symbols alongside data so a receiver can detect and correct a bounded number of errors without retransmission |
 | **Insertion Loss** | The optical power lost when light passes through a connector, splice, or other in-line component |

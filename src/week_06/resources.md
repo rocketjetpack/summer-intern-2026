@@ -50,7 +50,7 @@ Readings are grouped by topic, in the same order as the [Objectives](./objective
 ### Recommended
 
 - **[LINK-PP — Forward Error Correction (FEC) in Optical Networks](https://www.link-pp.com/knowledge/forward-error-correction-fec-optical-networks.html)**
-  Explicitly quantifies FEC's latency cost (roughly 80-120ns for RS-FEC, 100-200ns for KP4-FEC): the number behind the "Week 8 latency budget" question in the objectives.
+  Explicitly quantifies FEC's latency cost (roughly 80-120ns for RS-FEC, 100-200ns for KP4-FEC): the number behind the "InfiniBand/RDMA latency budget" question in the objectives.
 - **[Anritsu — Implementing FEC Rx Test using FEC Symbol Capture Function (Application Note, PDF)](https://dl.cdn-anritsu.com/en-en/test-measurement/files/Application-Notes/Application-Note/mp1900a-fec-rx-ef1200.pdf)**
   A test-equipment vendor's walkthrough of IEEE 802.3 FEC structure and physical-layer evaluation, useful if you want to go one level deeper into how FEC is actually tested.
 
