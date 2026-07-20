@@ -120,10 +120,10 @@ export default {
       name: "Week 8: BGP Deep Dive I (Fundamentals & Peering)",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_08/objectives" },
-//        { name: "Resources", path: "/week_08/resources" },
-//        { name: "Code Labs", path: "/week_08/code"},
-//        { name: "Personal Notes", path: "/week_08/notes" }
+        { name: "BGP Basics", path: "/week_08/objectives" },
+        { name: "Terminology", path: "/week_08/terminology" },
+        { name: "Resources", path: "/week_08/resources" },
+        { name: "Personal Notes", path: "/week_08/notes" }
       ],
     },
     {
@@ -133,6 +133,8 @@ export default {
 //        { name: "Objectives", path: "/week_09/objectives" },
 //        { name: "Resources", path: "/week_09/resources" },
 //        { name: "Code Labs", path: "/week_09/code"},
+//        { name: "Lab 0: Prepare the FRR Image", path: "/week_09/lab0" },
+//        { name: "Lab 1: Your First eBGP Peerings", path: "/week_09/lab1" },
 //        { name: "Personal Notes", path: "/week_09/notes" }
       ],
     },

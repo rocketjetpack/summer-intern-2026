@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 430" font-family="monospace" font-size="14">
+  <defs>
+    <marker id="dot7b" markerWidth="6" markerHeight="6" refX="3" refY="3">
+      <circle cx="3" cy="3" r="3" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- links: r1 (left), r2 (top center), r3 (right) -->
+  <line x1="235" y1="235" x2="395" y2="120" stroke="#333" stroke-width="2" marker-start="url(#dot7b)" marker-end="url(#dot7b)" />
+  <line x1="485" y1="120" x2="645" y2="235" stroke="#333" stroke-width="2" marker-start="url(#dot7b)" marker-end="url(#dot7b)" />
+  <line x1="250" y1="270" x2="630" y2="270" stroke="#333" stroke-width="2" marker-start="url(#dot7b)" marker-end="url(#dot7b)" />
+
+  <!-- host links -->
+  <line x1="110" y1="270" x2="180" y2="270" stroke="#333" stroke-width="2" marker-start="url(#dot7b)" marker-end="url(#dot7b)" />
+  <line x1="700" y1="270" x2="770" y2="270" stroke="#333" stroke-width="2" marker-start="url(#dot7b)" marker-end="url(#dot7b)" />
+
+  <!-- link labels -->
+  <text x="240" y="165" fill="#555" font-size="12">2001:db8:7:f12::/127</text>
+  <text x="500" y="165" fill="#555" font-size="12">2001:db8:7:f23::/127</text>
+  <text x="330" y="260" fill="#555" font-size="12">2001:db8:7:f13::/127 (r1: eth2, r3: eth1)</text>
+  <text x="60" y="250" fill="#555" font-size="12">2001:db8:7:1::/64</text>
+  <text x="680" y="250" fill="#555" font-size="12">2001:db8:7:3::/64</text>
+
+  <!-- r2 (top center) -->
+  <rect x="395" y="80" width="90" height="70" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2" />
+  <text x="440" y="105" text-anchor="middle" font-weight="bold">r2</text>
+  <text x="440" y="123" text-anchor="middle" font-size="11">FRR</text>
+  <text x="440" y="140" text-anchor="middle" font-size="11">rid 10.7.0.2</text>
+
+  <!-- r1 (left) -->
+  <rect x="180" y="235" width="90" height="70" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2" />
+  <text x="225" y="260" text-anchor="middle" font-weight="bold">r1</text>
+  <text x="225" y="278" text-anchor="middle" font-size="11">FRR</text>
+  <text x="225" y="295" text-anchor="middle" font-size="11">rid 10.7.0.1</text>
+
+  <!-- r3 (right) -->
+  <rect x="610" y="235" width="90" height="70" rx="6" fill="#fff3e0" stroke="#e65100" stroke-width="2" />
+  <text x="655" y="260" text-anchor="middle" font-weight="bold">r3</text>
+  <text x="655" y="278" text-anchor="middle" font-size="11">FRR</text>
+  <text x="655" y="295" text-anchor="middle" font-size="11">rid 10.7.0.3</text>
+
+  <!-- host1 -->
+  <rect x="20" y="240" width="90" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" />
+  <text x="65" y="265" text-anchor="middle" font-weight="bold">host1</text>
+  <text x="65" y="285" text-anchor="middle" font-size="11">::10/64</text>
+
+  <!-- host2 -->
+  <rect x="770" y="240" width="90" height="60" rx="6" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" />
+  <text x="815" y="265" text-anchor="middle" font-weight="bold">host2</text>
+  <text x="815" y="285" text-anchor="middle" font-size="11">::10/64</text>
+
+  <text x="440" y="380" text-anchor="middle" font-size="12" fill="#777">
+    Three FRR routers in a triangle running OSPFv3; /127s on router links, /64s on host networks.
+  </text>
+  <text x="440" y="400" text-anchor="middle" font-size="12" fill="#777">
+    host1 to host2 prefers the direct r1-r3 link; killing it forces reconvergence via r2.
+  </text>
+</svg>
