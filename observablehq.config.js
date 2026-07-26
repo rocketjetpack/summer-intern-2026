@@ -130,12 +130,14 @@ export default {
       name: "Week 9: BGP Deep Dive II (Policy, Security & IPv6)",
       open: false,
       pages: [
-//        { name: "Objectives", path: "/week_09/objectives" },
-//        { name: "Resources", path: "/week_09/resources" },
-//        { name: "Code Labs", path: "/week_09/code"},
-//        { name: "Lab 0: Prepare the FRR Image", path: "/week_09/lab0" },
-//        { name: "Lab 1: Your First eBGP Peerings", path: "/week_09/lab1" },
-//        { name: "Personal Notes", path: "/week_09/notes" }
+        { name: "Objectives", path: "/week_09/objectives" },
+        { name: "Terminology", path: "/week_09/terminology" },
+        { name: "Resources", path: "/week_09/resources" },
+        { name: "Labs", path: "/week_09/code" },
+        { name: "Lab 0: Prepare the FRR Image", path: "/week_09/lab0" },
+        { name: "Lab 1: Your First eBGP Peerings", path: "/week_09/lab1" },
+        { name: "Lab 2: Selective Route Acceptance at a Dual-Edge Boundary", path: "/week_09/lab2" },
+        { name: "Personal Notes", path: "/week_09/notes" }
       ],
     },
     {
